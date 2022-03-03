@@ -1762,3 +1762,15 @@ body.is-preload #footer {
 .closebtn:hover {
 	color: black;
 }
+
+div.container4 {
+    height: 30em;
+    position: absolute; 
+    text-align: center;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+}

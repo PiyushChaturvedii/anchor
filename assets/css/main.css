@@ -1550,36 +1550,50 @@ body.is-preload #footer {
 	font-size: 12px;
 	letter-spacing: 0.5rem;
 	text-transform: uppercase;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
-.text--big {
+.text--big {	
 	font-family: 'Poppins', sans-serif;
-	font-size: 7.5em;
-	font-weight: 700;
-	line-height: 110px;
-	margin-left: -8px;
+	font-size: 1.5em;
+	font-weight: 500;
+	line-height: 1.3;
+	margin-left: -20px;
+	letter-spacing:3px;
 }
 
 @media screen and (max-width: 480px) {
 	.text--big {
-		font-size: 2.5em;
-		line-height: 50px;
+		font-family: 'Poppins', sans-serif;
+		font-size: 1em;
+		font-weight: 600;		
+		margin-left: -70px;
+		letter-spacing: 1px;
 	}
 	.text--sub {
 		font-size: 8px;
 		letter-spacing: 0.5rem;
 		text-transform: uppercase;
-		margin-bottom: 20px;
+		margin-bottom: 5px;
 	}
+	.text--normal {
+		font-size: 13px;
+		color: rgba(255, 255, 255, 0.8);
+		line-height: 22px;
+		margin-top: 25px;
+		z-index: 999;
+		margin-left: -70px;
+	}
+
 }
 
 .text--normal {
 	font-size: 13px;
 	color: rgba(255, 255, 255, 0.8);
 	line-height: 22px;
-    margin-top: 25px;
-    z-index: 999;
+	margin-top: 25px;
+	z-index: 999;
+	
 }
 
 .text__background {
@@ -1593,7 +1607,7 @@ body.is-preload #footer {
 }
 
 .flex__item {
-	height: 60vh;
+	height:70vh;
 	color: #fff;
 	transition: transform 0.1s linear;
 }
@@ -1666,7 +1680,7 @@ body.is-preload #footer {
 
 .flex__content {
 	margin-left: 80px;
-	width: 65%;
+	width: 100%;
 	opacity: 1;
 	transform: translate3d(0, 0, 0);
 	transition: transform 0.2s linear 0.2s, opacity 0.1s linear 0.2s;
@@ -1678,6 +1692,7 @@ body.is-preload #footer {
 	max-width: 1000px;
 	position: relative;
 	margin: auto;
+	
 }
 
 /* Hide the images by default */

@@ -33,7 +33,7 @@ p {
 	text-align: justify;
 }
 h1, h2, h3, h4, h5, h6 {
-	/* font-family:40px 'Alegreya SemiBold'; */
+	font-family:40px 'Alegreya SemiBold';
 }
 .fitImage {
 	max-width: 100%;
@@ -1046,7 +1046,7 @@ padding: 0;
 list-style: none;
 }
 footer .col ul li, footer .col p {
-	color: white
+	color: white;
 font-size: 14px;
 }
 footer .col.col-social-icons i {
